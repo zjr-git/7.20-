@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="window"></div>
+
+
+    <script src="wheel.js"></script>
+    <script src="animat3.js"></script>
+
+
+    <script>
+       new wheel(".window",{
+            imgs:["https://img.alicdn.com/tfs/TB1ftPuNLb2gK0jSZK9XXaEgFXa-1130-500.jpg_q100.jpg_.webp",
+            "https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg",
+            "https://img.alicdn.com/imgextra/i3/1734167/O1CN01OvHCUj1geX14i0iGR_!!1734167-0-lubanu.jpg_q100.jpg_.webp"], 
+            links:["http://baidu.com","http://baidu.com","http://baidu.com"],
+            imgColor:["#e8e8e8","#c0c0c0","#f43c17"],
+            imgSize:[1130,500], 
+            // btnColor:"#000",
+            // btnActive:"blue",
+            // btnPos:["center","10"]
+        },{
+            time:2,
+            runStyle:""
+        })
+    </script>
+
+</body>
+</html>
